@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+}
+.sidebar {
+  width: 220px;
+  background: #2c3e50;
+  color: #fff;
+  position: fixed;
+  height: 100vh;
+  padding: 20px 0;
+}
+.sidebar .logo-container {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #34495e;
+}
+.sidebar .logo-container img {
+  max-width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+.sidebar h2 {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar ul li {
+  padding: 12px 20px;
+}
+.sidebar ul li a {
+  color: #bdc3c7;
+  text-decoration: none;
+  display: block;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active {
+  background: #34495e;
+  color: #fff;
+}
+.sidebar ul li a.logout {
+  color: #e74c3c;
+}
+.main-content {
+  margin-left: 240px;
+  padding: 20px;
+}
+.header h1 {
+  margin-top: 0;
+  font-size: 24px;
+}
+.header p {
+  color: #666;
+}
+.message-box {
+  background: #dff0d8;
+  color: #3c763d;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.table-section {
+  margin-top: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.table-section h2 {
+  margin-top: 0;
+}
+.table-section form {
+  margin-bottom: 15px;
+}
+.table-section form input, .table-section form textarea, .table-section form button {
+  padding: 8px;
+  font-size: 14px;
+}
+.table-section form button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.table-section table th, .table-section table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
